@@ -4401,6 +4401,7 @@ CMDs[#CMDs + 1] = {NAME = 'joinplayer [username / ID] [place ID]', DESC = 'Joins
 CMDs[#CMDs + 1] = {NAME = 'gameteleport / gametp [place ID]', DESC = 'Joins a game by ID'}
 CMDs[#CMDs + 1] = {NAME = 'antiidle / antiafk', DESC = 'Prevents the game from kicking you for being idle/afk'}
 CMDs[#CMDs + 1] = {NAME = 'Antibang / killbang', DESC = 'Prevents the game from kicking you for being idle/afk'}
+CMDs[#CMDs + 1] = {NAME = 'FastSkin / Skin', DESC = 'Prevents the game from kicking you for being idle/afk'}
 CMDs[#CMDs + 1] = {NAME = 'datalimit [num]', DESC = 'Set outgoing KBPS limit'}
 CMDs[#CMDs + 1] = {NAME = 'replicationlag / backtrack [num]', DESC = 'Set IncomingReplicationLag'}
 CMDs[#CMDs + 1] = {NAME = 'creatorid / creator', DESC = 'Notifies you the creators ID'}
@@ -8352,6 +8353,239 @@ end)
 
 addcmd('Antibang',{'KillBang'},function(args, speaker)
        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(47, -7235, 185)
+end)
+
+addcmd('FastSkin',{'Skin'},function(args, speaker)
+        local A_1 = "/morph me Slender "
+local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+Event:InvokeServer(A_1)
+ 
+local A_1 = "Authenticate"
+local Event = game:GetService("Workspace").Boards.SettingsHandler.Retriever
+Event:InvokeServer(A_1)
+ 
+local A_1 = "/morph me Noob1 "
+local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+Event:InvokeServer(A_1)
+ 
+local A_1 = "/char me N0TN1C3"
+local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+Event:InvokeServer(A_1)
+    wait(2)
+ 
+local args = {
+        [1] = "/hat me 192557913"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+local args = {
+        [1] = "/hat me 19255793"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+    local args = {
+        [1] = "/hat me 8851462135"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+local args = {
+        [1] = "/hat me 1474657"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+   local args = {
+        [1] = "/hat me 192557912"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+   local args = {
+        [1] = "/hat me 132809431"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+   local args = {
+        [1] = "/hat me 183468963"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+   local args = {
+        [1] = "/hat me 215718515"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+    local args = {
+        [1] = "/hat me 129471121"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1) 
+   local args = {
+        [1] = "/hat me 187998056"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+   local args = {
+        [1] = "/hat me 191101707"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+   local args = {
+        [1] = "/hat me 1158416"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+   local args = {
+        [1] = "/hat me 1158038"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+   local args = {
+        [1] = "/hat me 1744060292"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+    local args = {
+        [1] = "/hat me 233705354"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1) 
+ 
+  local args = {
+        [1] = "/hat me 4765323"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+  local args = {
+        [1] = "/hat me 106689944"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+local args = {
+        [1] = "/hat me 233705354"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1) 
+ 
+local args = {
+        [1] = "/hat me 89171071"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1) 
+ 
+local args = {
+        [1] = "/hat me 6964082275"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+local args = {
+        [1] = "/hat me  8151398197"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+local args = {
+        [1] = "/hat me  5548589770"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+local args = {
+        [1] = "/hat me   7246494294"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+local args = {
+        [1] = "/hat me  5802663850"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1) 
+ 
+local args = {
+        [1] = "/hat me  6533692082"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+local args = {
+        [1] = "/hat me  173624561"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+local args = {
+        [1] = "/hat me  173624602"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+local args = {
+        [1] = "/hat me  173624749"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+local args = {
+        [1] = "/hat me  2620415671"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+local args = {
+        [1] = "/hat me  417456127"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+local args = {
+        [1] = "/hat me  262669756"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+local args = {
+        [1] = "/hat me  173624651"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+local args = {
+        [1] = "/hat me  311450131"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+local args = {
+        [1] = "/hat me  233253311"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+local args = {
+        [1] = "/hat me  233253311"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
+ 
+local args = {
+        [1] = "/hat me  141742418"
+   }
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+    wait(1)
 end)
 
 addcmd('datalimit',{},function(args, speaker)
